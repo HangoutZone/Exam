@@ -1,0 +1,44 @@
+// ArrayF.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include "pch.h"
+#include <iostream>
+
+using namespace std;
+
+class ArrayF {
+private:
+	float input;
+	float arr[];
+
+public: 
+	ArrayF(float i)
+	{
+		input = i;
+		arr[input];
+	}
+	ArrayF(float array[])
+	{
+		delete array; 
+	}
+	void setInput(float i)
+	{
+		input = i;
+	}
+	int getInput()
+	{
+		return input;
+	}
+	void setAnyElement(int w, float t)
+	{
+		arr[w] = t;
+	}
+
+};
+int main()
+{
+
+	cout << "peace" << endl;
+}
+
+
